@@ -44,8 +44,9 @@ public class GerakanPlayer : MonoBehaviour
         {
             //mohon bantuannya teman-teman, bagian kode ini ada masalah, dan saya juga kurang paham bagian ini
             //kenapa gak jalan.
+            //mohon dibantu ya
             // Time.timeScale = 0;
-            //Destroy(GameObject);
+            //Destroy(GameObject); 
         }
     
     }
