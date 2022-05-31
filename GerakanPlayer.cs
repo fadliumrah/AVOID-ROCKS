@@ -42,8 +42,10 @@ public class GerakanPlayer : MonoBehaviour
     {
         if(collision.collider.CompareTag("virus"))
         {
-            Time.timeScale = 1;
-            Destroy(GameObject);
+            //mohon bantuannya teman-teman, bagian kode ini ada masalah, dan saya juga kurang paham bagian ini
+            //kenapa gak jalan.
+            // Time.timeScale = 0;
+            //Destroy(GameObject);
         }
     
     }
