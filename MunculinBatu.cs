@@ -22,7 +22,7 @@ public class MunculinBatu : MonoBehaviour
 
     IEnumerator MunculBatu()
     {
-        Instantiate(batu, transform.position+ Vector3.right*Random.Range(posisiMinimal,posisiMaximal), Quaternion.identity);
+        Instantiate(batu, transform.position + Vector3.right*Random.Range(posisiMinimal,posisiMaximal), Quaternion.identity);
         yield return new WaitForSeconds(Random.Range(waktuMinimal,waktuMaximal));
         StartCoroutine(MunculBatu());
     }
