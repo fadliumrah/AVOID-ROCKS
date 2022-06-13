@@ -42,7 +42,6 @@ public class Player : MonoBehaviour
         if(collision.collider.CompareTag("batu"))
         {
             Time.timeScale = 0;
-            Application.Quit();
             GameOverUI.text = "Game Over \n Tekan R untuk mengulang permainan";
         }
     
